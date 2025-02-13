@@ -72,7 +72,7 @@ graph TD;
     K --> L[End];
 ```
 
-### Troubleshooting Git Push Issues
+### Troubleshooting Git Push Issues 🛠️
 During the troubleshooting process, the following Git commands were used:
 1. **Set the Remote Repository**:
    ```bash
@@ -82,7 +82,7 @@ During the troubleshooting process, the following Git commands were used:
    ```bash
    git push origin main
    ```
-3. **Update Git Email Configuration**:
+3. **Update Git Email Configuration** 💡:
    ```bash
    git config --global user.email "your_github_username@users.noreply.github.com"
    ```
@@ -95,7 +95,7 @@ During the troubleshooting process, the following Git commands were used:
    git push origin main
    ```
 
-These steps ensured that the changes were successfully pushed to the GitHub repository.
+These steps ensured that the changes were successfully pushed to the GitHub repository. If you encounter any issues, refer to these commands for troubleshooting! 📋
 
 ## Learn More
 
