@@ -141,3 +141,7 @@ This README provides an overview of the project, how to set it up, and how to tr
 ---
 
 Thank you for using the Dictionary API Client!
+
+## Contributing
+
+We welcome contributions to the Dictionary API Client project! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
