@@ -22,12 +22,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-<<<<<<< HEAD
-    - name: Build
-      run: |
-        npm install
-        gulp
-=======
     - name: Install dependencies
       run: |
         npm install
@@ -35,4 +29,3 @@ jobs:
 
     - name: Build
       run: gulp
->>>>>>> 47cacd6 (Add Gulp installation to workflow (5))
