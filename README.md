@@ -103,6 +103,22 @@ During the troubleshooting process, the following Git commands were used:
 
 These steps ensured that the changes were successfully pushed to the GitHub repository. If you encounter any issues, refer to these commands for troubleshooting! 📋
 
+### Troubleshooting Gulp Issues
+
+If you encounter issues with Gulp, follow these steps:
+1. **Ensure Gulp is Installed**: Make sure Gulp is installed locally in your project:
+   ```bash
+   npm install gulp
+   ```
+2. **Check for Gulpfile**: Ensure that a `gulpfile.js` or `gulpfile.ts` exists in the root directory.
+3. **Signal Async Completion**: Update your Gulp tasks to signal async completion by including `done()` in the task definition:
+   ```javascript
+   gulp.task('default', function(done) {
+     console.log('Gulp is running!');
+     done();
+   });
+   ```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
