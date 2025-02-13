@@ -72,6 +72,31 @@ graph TD;
     K --> L[End];
 ```
 
+### Troubleshooting Git Push Issues
+During the troubleshooting process, the following Git commands were used:
+1. **Set the Remote Repository**:
+   ```bash
+   git remote add origin https://github.com/bniladridas/dictionary-api-client.git
+   ```
+2. **Push Changes to the Remote**:
+   ```bash
+   git push origin main
+   ```
+3. **Update Git Email Configuration**:
+   ```bash
+   git config --global user.email "your_github_username@users.noreply.github.com"
+   ```
+4. **Recommit Changes**:
+   ```bash
+   git commit --amend --reset-author
+   ```
+5. **Final Push**:
+   ```bash
+   git push origin main
+   ```
+
+These steps ensured that the changes were successfully pushed to the GitHub repository.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
