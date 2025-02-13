@@ -51,6 +51,12 @@ If you encounter issues while using the API, follow these steps:
 4. **Check for Sandbox Limitations**: The sandbox environment may not have all entries available. Refer to the Oxford Dictionary API documentation for more details.
 5. **Log Errors**: Check the console logs for any error messages that can provide insight into the issue.
 
+## Release Information
+
+- **Current Release**: 1.0.0
+- **Date**: 2025-02-13
+- **Changes**: Added Git troubleshooting steps and flowchart to README.
+
 ## Git Workflow
 
 The following flowchart illustrates the basic Git workflow for pushing changes to a branch:
